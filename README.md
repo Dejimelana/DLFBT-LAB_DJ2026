@@ -18,7 +18,8 @@ Repository for the **Deep Learning Fundamentals and Basic Techniques (DLFBT)** l
     - [Exam Dates](#exam-dates)
   - [Lab 1](#lab-1)
   - [Lab 2](#lab-2)
-  - [Lab 3](#lab-3)
+  - [Lab 3 (Final Project)](#lab-3-final-project)
+  - [Final Project](#final-project)
 - [Reporting Bugs and Problems](#reporting-bugs-and-problems)
 - [Project Information](#project-information)
 
@@ -69,11 +70,11 @@ pip install tensorflow
 >
 > You **do not need to submit the notebooks**. Submit only the Python file requested for each laboratory.
 
-The repository contains three laboratory assignments:
+The repository contains two laboratory assignments and one final project:
 
 - [Lab 1](#lab-1)
 - [Lab 2](#lab-2)
-- [Lab 3](#lab-3)
+- [Final Project](#final-project)
 
 ---
 
@@ -81,11 +82,11 @@ The repository contains three laboratory assignments:
 
 For each laboratory, submit **only the corresponding Python file**:
 
-| Lab | File to Submit |
-|---|---|
-| Lab 1 | `dlfbt_lab1.py` |
-| Lab 2 | `dlfbt_lab2.py` |
-| Lab 3 | `dlfbt_lab3.py` |
+| Lab           | File to Submit  |
+| ------------- | --------------- |
+| Lab 1         | `dlfbt_lab1.py` |
+| Lab 2         | `dlfbt_lab2.py` |
+| Final Project | `dlfbt_lab3.py` |
 
 ### Submission Rules
 
@@ -99,19 +100,19 @@ Upload the requested file to the [course Moodle page](https://posgrado.uam.es/co
 
 ### Due Dates
 
-| Lab | Due Date |
-|---|---|
-| **Lab 1** | Friday, 2026-09-25 at 13:00 |
-| **Lab 2** | Friday, 2026-10-09 at 13:00 |
-| **Lab 3** | Friday, 2026-10-16 at 13:00 |
+| Lab               | Due Date                    |
+| ----------------- | --------------------------- |
+| **Lab 1**         | Friday, 2026-09-25 at 13:00 |
+| **Lab 2**         | Friday, 2026-10-09 at 13:00 |
+| **Final Project** | Friday, 2026-10-23 at 13:00 |
 
 ### Exam Dates
 
-| Lab | Exam Date |
-|---|---|
+| Lab       | Exam Date                   |
+| --------- | --------------------------- |
 | **Lab 1** | Friday, 2026-09-25 at 16:00 |
 | **Lab 2** | Friday, 2026-10-09 at 18:00 |
-| **Lab 3** | Friday, 2026-10-16 at 16:00 |
+
 
 ---
 
@@ -155,23 +156,19 @@ Use the notebook to run the exercises and verify that your implementation produc
 
 ---
 
-## Lab 3
+## Lab 3 (Final Project)
 
-Follow the instructions provided in the **Lab 3 notebook**.
+## Final Project 
 
-Implement your solutions in:
+The Final Project replaces Lab 3. 
 
-[`dlfbt_lab3.py`](Lab3/dlfbt_lab3.py)
+Follow the instructions provided in the **Final Project notebook and project description**. 
 
-Complete only the sections marked with:
+Complete the project in pairs and submit the required files before the deadline. 
 
-```python
-# TO-DO
-```
+The Final Project is evaluated based on the submitted project only. 
 
-Use the notebook to run the exercises and verify that your implementation produces the expected results.
-
-**Submit:** `dlfbt_lab3.py` only.
+**There is no exam for the Final Project.**
 
 ---
 
