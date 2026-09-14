@@ -49,7 +49,7 @@ class LinearRegressionModel(object):
         """
 
         # --- TO-DO block: Compute the model output y
-        pass
+        y = x @ self.w + self.b
         # --- End of TO-DO block
 
         return y
@@ -77,7 +77,9 @@ class LinearRegressionModel(object):
         y = self.predict(x)
 
         # --- TO-DO block: Compute the gradients db and dw
-        pass
+        error = y-t
+        dw = error @ x.T
+        db = np.sum(error, keepdims=True)
         # --- End of TO-DO block
 
         return db, dw
@@ -99,7 +101,8 @@ class LinearRegressionModel(object):
         db, dw = self.compute_gradients(x, t)
 
         # --- TO-DO block: Update the model parameters b and w
-        pass
+        w = self.w - (eta * dw)
+        b = self.b - (eta * db)
         # --- End of TO-DO block
 
     def fit(self, x, t, eta, num_iters):
