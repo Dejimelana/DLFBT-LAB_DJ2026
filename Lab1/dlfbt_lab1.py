@@ -78,7 +78,7 @@ class LinearRegressionModel(object):
 
         # --- TO-DO block: Compute the gradients db and dw
         error = y-t
-        dw = error @ x.T
+        dw = (x.T @ error)/N
         db = np.sum(error, keepdims=True)
         # --- End of TO-DO block
 
