@@ -193,8 +193,9 @@ class LogisticRegressionModel(LinearRegressionModel):
         return 1.0 / (1.0 + np.exp(-z))
 
     # --- TO-DO block: Overwrite the methods of the LinearRegressionModel class
-    z = np.dot(x, self.w) + self.b
-    return LogisticRegressionModel.sigmoid(z)
+        z = np.dot(x, self.w) + self.b
+        y = LogisticRegressionModel.sigmoid(z)
+        return y
     # --- End of TO-DO block
 
     def get_loss(self, x, t):
