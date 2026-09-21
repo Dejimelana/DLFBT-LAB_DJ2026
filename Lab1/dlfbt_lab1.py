@@ -194,7 +194,7 @@ class LogisticRegressionModel(LinearRegressionModel):
 
     # --- TO-DO block: Overwrite the methods of the LinearRegressionModel class
         def predict(self,x):
-          z = np.dot(x, self.w) + self.b
+          z = x @ self.w + self.b
           y = LogisticRegressionModel.sigmoid(z)
           return y
     # --- End of TO-DO block
